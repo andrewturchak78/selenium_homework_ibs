@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ListOfItemsTest {
     WebDriver driver;
-    private static ChromeOptions options;
+
 
     @BeforeAll
     static void setUpAll() {
