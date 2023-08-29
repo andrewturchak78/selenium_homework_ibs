@@ -36,6 +36,7 @@ public class ListOfItemsTest {
     void addVegetableNotExotic() {
 
         driver.findElement(By.xpath("//button[text()='Добавить']")).click();
+
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         driver.findElement(By.id("name")).sendKeys("Картофель");
         driver.findElement(By.id("type")).click();
@@ -53,7 +54,9 @@ public class ListOfItemsTest {
 
     @Test
     void addFruitExotic() {
+
         driver.findElement(By.xpath("//button[text()='Добавить']")).click();
+
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         driver.findElement(By.id("name")).sendKeys("Ананас");
         driver.findElement(By.id("type")).click();
