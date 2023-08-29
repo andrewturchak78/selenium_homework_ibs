@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="060bd92d-7d77-4f81-9f7b-40951c5f7303" name="Changes" comment="some fixes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testdb/DBTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/ListOfItemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/ListOfItemsTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="060bd92d-7d77-4f81-9f7b-40951c5f7303" name="Changes" comment="DBTest added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +43,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.DBTest.test">
+  <component name="RunManager" selected="JUnit.DBTest.test (1)">
     <configuration name="DBTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testdb.DBTest" />
       <module name="selenium_ibs_homework" />
@@ -58,6 +53,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_ibs_homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testDB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testDB" />
+      <option name="MAIN_CLASS_NAME" value="testDB.DBTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,22 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListOfItemsTest.addFruitExotic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium_ibs_homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ListOfItemsTest" />
-      <option name="METHOD_NAME" value="addFruitExotic" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ListOfItemsTest.addVegetableNotExotic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_ibs_homework" />
       <extension name="coverage">
@@ -127,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DBTest.test (1)" />
         <item itemvalue="JUnit.DBTest.test" />
         <item itemvalue="Application.DBTest" />
         <item itemvalue="JUnit.ListOfItemsTest.addVegetableNotExotic" />
         <item itemvalue="JUnit.ListOfItemsTest" />
-        <item itemvalue="JUnit.ListOfItemsTest.addFruitExotic" />
       </list>
     </recent_temporary>
   </component>
@@ -158,12 +153,20 @@
       <option name="project" value="LOCAL" />
       <updated>1692823942376</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DBTest added">
+      <created>1693319874703</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693319874703</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="some fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fixes" />
+    <MESSAGE value="DBTest added" />
+    <option name="LAST_COMMIT_MESSAGE" value="DBTest added" />
   </component>
 </project>

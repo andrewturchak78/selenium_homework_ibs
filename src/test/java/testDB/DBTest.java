@@ -1,8 +1,6 @@
-package testdb;
+package testDB;
 
 import org.junit.jupiter.api.Test;
-
-
 
 import java.sql.*;
 
